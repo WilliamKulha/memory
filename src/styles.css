@@ -1,0 +1,42 @@
+.wrapper {
+    display:grid;
+    margin: 5%;
+}
+
+.card {
+    height: 75%;
+    width: 75%;
+    border-radius: 15px;
+}
+
+#header {
+    text-align: center;
+    font-weight: bold;
+}
+
+#game-board {
+    display: grid;
+    margin:1em;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    grid-template-areas:
+    "rowone"
+    "rowtwo"
+}
+
+.row-one {
+    margin:1em;
+    justify-content:space-evenly;
+    grid-area: rowone; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+}
+
+.row-two {
+    margin:1em;
+    justify-content:space-evenly;
+    grid-area: rowtwo;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
