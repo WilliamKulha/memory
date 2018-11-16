@@ -4,9 +4,11 @@
 }
 
 .card {
+    min-height:223px;
     height: 75%;
     width: 75%;
     border-radius: 15px;
+    margin-right:1em;
 }
 
 #header {
@@ -40,3 +42,33 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
+.faye {
+    content: url(img/faye.jpeg);
+}
+
+.frankie {
+    content: url(img/frankie.jpeg);
+}
+
+.l {
+    content: url(img/l.jpeg);
+}
+
+.slowbro {
+    content: url(img/slowbro.png);
+}
+
+.spike {
+    content: url(img/spike.jpeg);
+}
+
+.back {
+    content: url(img/card-back.png);
+    display: block;
+}
+
+.got-it {
+    border-width: 2px;
+    border-style:solid;
+    border-color:greenyellow;
+}
